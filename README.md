@@ -24,3 +24,5 @@ Só é necessário quando mudar o próprio aplicativo (não o sistema web):
 1. Aumente `version` no `package.json`.
 2. `npm run dist`
 3. `gh release create vX.Y.Z dist/ControleProcessual-Setup-X.Y.Z.exe dist/ControleProcessual-Setup-X.Y.Z.exe.blockmap dist/latest.yml`
+4. Envie também uma cópia chamada `ControleProcessual-Setup.exe` para a mesma release — é o link fixo usado no botão
+   "Baixar aplicativo" do sistema: `https://github.com/DiegoCBauer/controleprocessual-desktop/releases/latest/download/ControleProcessual-Setup.exe`
